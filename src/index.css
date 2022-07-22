@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.animated-text {
+  display: inline-block;
+  height: 72px;
+  overflow: hidden;
+}
+
+.animated-text div {
+  animation: 9s wordChange;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1);
+}
+
+.animation::after {
+  animation: 3s textType;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(10);
+  animation-fill-mode: backwards;
+}
+
+@keyframes textType {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes wordChange {
+  0% {
+    margin-top: 0;
+  }
+
+  33.333% {
+    margin-top: -72px;
+  }
+
+  66.666% {
+    margin-top: -144px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .animated-text {
+    height: 40px;
+  }
+
+  @keyframes wordChange {
+    0% {
+      margin-top: 0;
+    }
+
+    33.333% {
+      margin-top: -40px;
+    }
+
+    66.666% {
+      margin-top: -80px;
+    }
+
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+
+@media(min-width : 760px) and (max-width : 1080px) {
+  .animated-text {
+    height: 72px;
+  }
+
+  @keyframes wordChange {
+    0% {
+      margin-top: 0;
+    }
+
+    33.333% {
+      margin-top: -72px;
+    }
+
+    66.666% {
+      margin-top: -144px;
+    }
+
+    100% {
+      margin-top: 0;
+    }
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
