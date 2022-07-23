@@ -43,7 +43,7 @@ function Home() {
             className='border-2 px-4 md:px-6 py-2 md:py-4 my-4 rounded-lg flex items-center gap-2 hover:bg-[#75454c] hover:border-[#75454c]'>
             Download CV <MdOutlineArrowRightAlt className='text-2xl' /> </a>
         </div>
-        <img src='profile.svg' alt='profileimg' className='m-auto mt-8 md:mt-auto h-44 md:h-96' />
+        <img src='./portfolio/profile.svg' alt='profileimg' className='m-auto mt-8 md:mt-auto h-44 md:h-96' />
       </div>
 
       <About />
