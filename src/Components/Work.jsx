@@ -21,9 +21,9 @@ export default function Work() {
 
                 <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000" className='group'>
                     <div className='md:group-hover:scale-105 duration-500 transition-all shadow-xl'>
-                        <div style={{ backgroundImage: "url(/todo.JPEG)" }} className='relative bg-center overflow-hidden bg-cover 
+                        <div className='relative bg-center overflow-hidden bg-cover 
                         bg-no-repeat w-80 md:w-96 h-64 rounded-tl-lg rounded-tr-lg'>
-                              <img src='todo.JPEG' alt='todolist' className='absolute w-80 md:w-96 h-64 object-cover' />
+                              <img src='todo.jpeg' alt='todolist' className='absolute w-80 md:w-96 h-64 object-cover' />
                             <div className='hidden md:block absolute -translate-y-96 group-hover:translate-y-0 duration-500 opacity-0 
                     group-hover:opacity-80 w-80 md:w-96 h-64 bg-gray-300'>
                             </div>
@@ -64,9 +64,9 @@ export default function Work() {
 
                 <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000" className='group'>
                     <div className='md:group-hover:scale-105 duration-500 transition-all shadow-xl'>
-                        <div style={{ backgroundImage: "url(/minishop.JPEG)" }} className='relative overflow-hidden bg-center bg-cover 
+                        <div className='relative overflow-hidden bg-center bg-cover 
                         bg-no-repeat w-80 md:w-96 h-64 rounded-tl-lg rounded-tr-lg'>
-                              <img src='minishop.JPEG' alt='minishop' className='absolute w-80 md:w-96 h-64 object-cover' />
+                              <img src='minishop.jpeg' alt='minishop' className='absolute w-80 md:w-96 h-64 object-cover' />
                             <div className='hidden md:block absolute -translate-y-96 group-hover:translate-y-0 duration-500 opacity-0 
                     group-hover:opacity-80 w-80 md:w-96 h-64 bg-gray-300'>
                             </div>
