@@ -27,8 +27,8 @@ export default function Navbar() {
 
       <Link activeClass="active" to="home" smooth={true} duration={500}>
         <div className='flex items-center gap-2 cursor-pointer'>
-          <img src='./portfolio/MOHIT.gif' alt='mylogo' className='h-full w-20 rounded-full' />
-          <img src='./portfolio/MOHIT2.gif' alt='mylogo' className='h-full w-20' />
+          <img src='MOHIT.gif' alt='mylogo' className='h-full w-20 rounded-full' />
+          <img src='MOHIT2.gif' alt='mylogo' className='h-full w-20' />
         </div>
       </Link>
 

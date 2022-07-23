@@ -39,7 +39,7 @@ export default function About() {
                     </div>
 
                     <div className='flex items-center justify-center w-full md:w-1/3'>
-                        <img src='./portfolio/imgg.jpg' alt='img' className='h-52 md:h-64 w-52 md:w-64 bg-white p-1 mt-10 md:mt-0 rounded-full' />
+                        <img src='imgg.jpg' alt='img' className='h-52 md:h-64 w-52 md:w-64 bg-white p-1 mt-10 md:mt-0 rounded-full' />
                     </div>
                 </div>
             </div>

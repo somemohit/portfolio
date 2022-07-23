@@ -23,42 +23,42 @@ export default function Skills() {
                         <h1 className='text-[#4af041] text-lg'>Languages & Frameworks</h1>
                         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-8'>
                             <div className='space-y-4'>
-                                <img src='./portfolio/html.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='html.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>HTML</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/css.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='css.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>CSS</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/javascript.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='javascript.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>JAVASCRIPT</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/react.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='react.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>REACT</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/tailwind.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='tailwind.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>TAILWIND</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/nextjs.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='nextjs.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>NEXT JS</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/mui.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='mui.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>MATERIAL UI</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/bootstrap.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='bootstrap.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>BOOTSTRAP</p>
                             </div>
                         </div>
@@ -68,27 +68,27 @@ export default function Skills() {
                         <h1 className='text-[#4af041] text-lg'>Tools & Technologies</h1>
                         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-8'>
                             <div className='space-y-4'>
-                                <img src='./portfolio/git.svg' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='git.svg' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>GIT</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/github.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='github.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>GITHUB</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/vs.svg' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='vs.svg' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>VS CODE</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/figma.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='figma.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>FIGMA</p>
                             </div>
 
                             <div className='space-y-4'>
-                                <img src='./portfolio/npm.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
+                                <img src='npm.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>NPM</p>
                             </div>
                         </div>
