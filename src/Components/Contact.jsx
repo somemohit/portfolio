@@ -12,11 +12,11 @@ export default function Contact() {
 
     return (
         <div data-aos="fade-up" name="contact" className='min-h-screen h-fit p-5 flex justify-center items-center'>
-            <form data-aos="fade-up" action='https://getform.io/f/5ec15442-6be3-4b69-a536-0eff4392522b' method="POST" className='max-w-[800px] w-full'>
+            <form data-aos="fade-up" action='https://getform.io/f/24fbd33a-6d3e-42ef-a8f9-ddde3adadc6f' method="POST" className='max-w-[800px] w-full'>
                 <div className='space-y-4 py-6'>
                     <p className='text-4xl font-semibold text-white inline border-b-4 border-[#75454c]'>Contact</p>
                     <p className='text-white text-lg md:text-xl'>Do you want to collborate or want to hire or just wanna have a chat ?
-                        Submit the from and let's break the ice !</p>
+                        Submit the form and let's break the ice !</p>
                 </div>
 
                 <input type='text' placeholder='Name' name='name' className='rounded-lg outline-none p-4 px-5 w-full my-2 bg-[#43587d] text-white' />
