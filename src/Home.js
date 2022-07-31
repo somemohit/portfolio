@@ -39,7 +39,7 @@ function Home() {
 
           <p className='text-white text-lg py-4 text-left'>I'm a creative and curious front-end developer who is passionate about designing,
             developing clean, intuitive and better UI/UX. I specialize in React JS and responsive design.</p>
-          <a href='https://drive.google.com/file/d/1MTDZ2GVFV-dkPWcV-n26nWZlQIemur3f/view?usp=sharing' target="_blank" rel="noreferrer"
+          <a href='https://drive.google.com/file/d/1uLMLgQ3aSiCe5Rx2FCC8I354Ho8gGKrz/view?usp=sharing' target="_blank" rel="noreferrer"
             className='border-2 px-4 md:px-6 py-2 md:py-4 my-4 rounded-lg flex items-center gap-2 hover:bg-[#75454c] hover:border-[#75454c]'>
             Download CV <MdOutlineArrowRightAlt className='text-2xl' /> </a>
         </div>

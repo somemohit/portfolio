@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
 
             <div className='text-gray-300 flex justify-center items-center gap-8 mt-8'>
-                <a href='https://www.linkedin.com/in/mohit-kumar-dash-48358315a/' target="_blank" rel="noreferrer">
+                <a href='https://www.linkedin.com/in/mohit-kumar-dash' target="_blank" rel="noreferrer">
                     <FaLinkedin className='text-2xl hover:text-[#546f9c] duration-300 transition-all cursor-pointer' />
                 </a>
                 <a href='https://github.com/somemohit' target="_blank" rel="noreferrer">
