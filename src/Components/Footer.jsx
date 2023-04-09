@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
+// import { FaFacebook } from 'react-icons/fa';
 import { FaPhone } from 'react-icons/fa';
 import { FaPaperPlane } from 'react-icons/fa';
 
@@ -24,9 +24,9 @@ export default function Footer() {
                 <a href='https://twitter.com/mohitkumardash1' target="_blank" rel="noreferrer">
                     <FaTwitter className='text-2xl hover:text-[#546f9c] duration-300 transition-all cursor-pointer' />
                 </a>
-                <a href='https://www.facebook.com/mohitkumar.dash/' target="_blank" rel="noreferrer">
+                {/* <a href='https://www.facebook.com/mohitkumar.dash/' target="_blank" rel="noreferrer">
                     <FaFacebook className='text-2xl hover:text-[#546f9c] duration-300 transition-all cursor-pointer' />
-                </a>
+                </a> */}
             </div>
             <h1 className='text-xs text-gray-300 mt-4'>© 2022 Portfolio | Mohit Kumar Dash</h1>
         </div>
