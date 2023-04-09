@@ -82,10 +82,10 @@ export default function Skills() {
                                 <p className='text-white'>VS CODE</p>
                             </div>
 
-                            <div className='space-y-4'>
+                            {/* <div className='space-y-4'>
                                 <img src='figma.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
                                 <p className='text-white'>FIGMA</p>
-                            </div>
+                            </div> */}
 
                             <div className='space-y-4'>
                                 <img src='npm.png' alt='html' className='h-16 w-16 m-auto hover:scale-125 duration-500' />
