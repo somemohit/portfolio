@@ -19,9 +19,9 @@ export default function Contact() {
                         Submit the form and let's break the ice !</p>
                 </div>
 
-                <input type='text' placeholder='Name' name='name' className='rounded-lg outline-none p-4 px-5 w-full my-2 bg-[#43587d] text-white' />
-                <input type='email' placeholder='Email' name='email' className='rounded-lg outline-none p-4 px-5 w-full my-2 bg-[#43587d] text-white' />
-                <textarea placeholder='Enter your message' name='message' rows='10' className='rounded-lg outline-none p-4 w-full my-2 bg-[#43587d] text-white' />
+                <input required type='text' placeholder='Name' name='name' className='rounded-lg outline-none p-4 px-5 w-full my-2 bg-[#43587d] text-white' />
+                <input required type='email' placeholder='Email' name='email' className='rounded-lg outline-none p-4 px-5 w-full my-2 bg-[#43587d] text-white' />
+                <textarea required placeholder='Enter your message' name='message' rows='10' className='rounded-lg outline-none p-4 w-full my-2 bg-[#43587d] text-white' />
                 <button className='m-auto border-2 px-4 md:px-6 py-2 md:py-4 my-4 rounded-lg flex items-center gap-2 text-white
                  hover:bg-[#75454c] hover:border-[#75454c]'>
                     Let's Collaborate</button>
