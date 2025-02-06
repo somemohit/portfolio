@@ -2,6 +2,7 @@ import React from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import displaypic from '../assets/images/pic.jpeg';
 
 export default function About() {
 
@@ -39,7 +40,7 @@ export default function About() {
                     </div>
 
                     <div className='flex items-center justify-center w-full md:w-1/3'>
-                        <img src='pic.jpeg' alt='img' className='mt-10 md:mt-0 shadow-xl rounded-lg' />
+                        <img src={displaypic} alt='img' className='mt-10 md:mt-0 shadow-xl rounded-lg' />
                     </div>
                 </div>
             </div>

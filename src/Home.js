@@ -10,6 +10,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import profileImg from './assets/images/profile.svg';
 
 function Home() {
   useEffect(() => {
@@ -65,7 +66,7 @@ function Home() {
           </Link>
         </div>
         <img
-          src="profile.svg"
+          src={profileImg}
           alt="profileimg"
           className="m-auto mt-8 md:mt-auto h-44 md:h-96"
         />

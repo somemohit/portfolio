@@ -4,6 +4,8 @@ import { Link } from 'react-scroll';
 import { FaBars } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md';
 import { useEffect } from 'react';
+import Mohitlogo2 from '../assets/images/MOHIT2.gif';
+import Mohitlogo1 from '../assets/images/MOHIT.gif';
 
 export default function Navbar() {
 
@@ -27,8 +29,8 @@ export default function Navbar() {
 
       <Link activeClass="active" to="home" smooth={true} duration={500}>
         <div className='flex items-center gap-2 cursor-pointer'>
-          <img src='MOHIT.gif' alt='mylogo' className='h-full w-20 rounded-full' />
-          <img src='MOHIT2.gif' alt='mylogo' className='h-full w-20' />
+          <img src={Mohitlogo1} alt='mylogo' className='h-full w-20 rounded-full' />
+          <img src={Mohitlogo2} alt='mylogo' className='h-full w-20' />
         </div>
       </Link>
 
