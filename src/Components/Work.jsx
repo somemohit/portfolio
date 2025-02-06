@@ -44,7 +44,7 @@ export default function Work() {
                             </div>
                         </div>
                         <div className='relative h-64 w-80 md:w-96 flex flex-col items-center text-white p-5 bg-[#43587d] rounded-bl-lg rounded-br-lg'>
-                            <h1 className='text-xl text-white font-semibold'>To-do List App</h1>
+                            <h1 className='text-xl text-white font-semibold'>To-do  App</h1>
                             <p className='text-sm md:text-base'>
                                 This is a to-do list app to manage your daily tasks and activities that you want to do.
                                 I have made this using React js. This app follows the CRUD operation.
