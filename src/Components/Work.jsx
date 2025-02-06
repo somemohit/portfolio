@@ -2,6 +2,8 @@ import React from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import minishopImage from '../assets/images/minishop.jpeg';
+import todoimg from '../assets/images/todo.jpeg';
 
 export default function Work() {
 
@@ -23,7 +25,7 @@ export default function Work() {
                     <div className='md:group-hover:scale-105 duration-500 transition-all shadow-xl'>
                         <div className='relative bg-center overflow-hidden bg-cover 
                         bg-no-repeat w-80 md:w-96 h-64 rounded-tl-lg rounded-tr-lg'>
-                              <img src='todo.jpeg' alt='todolist' className='absolute w-80 md:w-96 h-64 object-cover' />
+                              <img src={todoimg} alt='todolist' className='absolute w-80 md:w-96 h-64 object-cover' />
                             <div className='hidden md:block absolute -translate-y-96 group-hover:translate-y-0 duration-500 opacity-0 
                     group-hover:opacity-80 w-80 md:w-96 h-64 bg-gray-300'>
                             </div>
@@ -66,7 +68,7 @@ export default function Work() {
                     <div className='md:group-hover:scale-105 duration-500 transition-all shadow-xl'>
                         <div className='relative overflow-hidden bg-center bg-cover 
                         bg-no-repeat w-80 md:w-96 h-64 rounded-tl-lg rounded-tr-lg'>
-                              <img src='minishop.jpeg' alt='minishop' className='absolute w-80 md:w-96 h-64 object-cover' />
+                              <img src={minishopImage} alt='minishop' className='absolute w-80 md:w-96 h-64 object-cover' />
                             <div className='hidden md:block absolute -translate-y-96 group-hover:translate-y-0 duration-500 opacity-0 
                     group-hover:opacity-80 w-80 md:w-96 h-64 bg-gray-300'>
                             </div>
