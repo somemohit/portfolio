@@ -1,26 +1,34 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react';
 import {workCardData} from '../modules/constants';
+import {useScroll} from 'framer-motion';
+import ProjectCard from './ProjectCard';
 
 export default function Work() {
+  const container = useRef(null);
+
+  const {scrollYProgress} = useScroll({
+    target: container,
+    offset: ['start start', 'end end'],
+  });
+
   useEffect(() => {
     Aos.init({duration: 1000});
+    // scrollYProgress.on('change', (e) => console.log(scrollYProgress));
   }, []);
 
   return (
     <div data-aos="fade-up" name="work" className="min-h-screen h-fit px-5">
       <div className="text-4xl text-white font-semibold space-y-4">
-        <p className="text-4xl font-semibold text-white inline border-b-4 border-[#75454c]">
-          Work
-        </p>
+        <p className="text-4xl font-semibold text-white inline">Work</p>
         <p className="text-lg md:text-2xl">
           Check out some of my recent works !
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 sm:gap-8 max-w-[1080px] mx-auto my-24 justify-items-center">
+      {/* <div className="grid md:grid-cols-2 gap-6 sm:gap-8 max-w-[1080px] mx-auto my-24 justify-items-center">
         {workCardData?.map((item) => {
           return (
             <>
@@ -68,7 +76,7 @@ export default function Work() {
                       </a>
                     </div>
                   </div>
-                  <div className="relative h-64 w-80 md:w-96 flex flex-col items-center text-white p-5 bg-[#43587d] rounded-bl-lg rounded-br-lg">
+                  <div className="relative h-64 w-80 md:w-96 flex flex-col items-center text-white p-5 bg-slate-700 rounded-bl-lg rounded-br-lg">
                     <h1 className="text-xl text-white font-semibold">
                       {item?.appName}
                     </h1>
@@ -106,6 +114,22 @@ export default function Work() {
                 </div>
               </div>
             </>
+          );
+        })}
+      </div> */}
+
+      <div ref={container} className="my-20 sm:my-0">
+        {workCardData?.map((item, i) => {
+          const targetScale = 1 - ((workCardData.length -1) - i) * 0.05;
+          return (
+            <ProjectCard
+              key={`p_${i}`}
+              i={i}
+              progress={scrollYProgress}
+              range={[i * (1 / (workCardData.length - 1)), 1]}
+              targetScale={targetScale}
+              item={item}
+            />
           );
         })}
       </div>

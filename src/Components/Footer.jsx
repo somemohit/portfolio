@@ -8,7 +8,7 @@ import { FaPaperPlane } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-        <div className='h-48 bg-[#43587d] flex flex-col justify-center items-center'>
+        <div className='h-48 bg-slate-800 flex flex-col justify-center items-center'>
             <div className='text-gray-300 text-xs flex flex-col items-center gap-2'>
                 <h1 className='flex items-center gap-2'><FaPaperPlane />mohitkumardash4@gmail.com</h1>
                 <h1 className='flex items-center gap-2'><FaPhone /> +91-8457800765</h1>
@@ -28,7 +28,7 @@ export default function Footer() {
                     <FaFacebook className='text-2xl hover:text-[#546f9c] duration-300 transition-all cursor-pointer' />
                 </a> */}
             </div>
-            <h1 className='text-xs text-gray-300 mt-4'>© 2022 Portfolio | Mohit Kumar Dash</h1>
+            <h1 className='text-xs text-gray-300 mt-4'>© 2025 Portfolio | Mohit Kumar Dash</h1>
         </div>
     )
 }
