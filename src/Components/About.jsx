@@ -2,7 +2,7 @@ import React from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import displaypic from '../assets/images/pic.jpeg';
+import displaypic from '../assets/images/pic.jpg';
 
 export default function About() {
 
@@ -17,10 +17,11 @@ export default function About() {
             <div className='w-full'>
 
                 <div className='max-w-[1080px] mx-auto px-4'>
-                    <p className='text-4xl font-semibold text-white inline border-b-4 border-[#75454c]'>About</p>
+                    <p className='text-4xl font-semibold text-white inline'>About</p>
+                    {/* <p className='text-4xl font-semibold text-white inline border-b-4 border-[#75454c]'>About</p> */}
                 </div>
 
-                <div className='md:flex items-center justify-between mt-6 gap-8 max-w-[1080px] mx-auto'>
+                <div className='flex flex-col md:flex-row items-center justify-between mt-6 gap-8 max-w-[1080px] mx-auto'>
                     <div className='w-full md:w-2/3 space-y-8'>
                         <p className='text-2xl md:text-4xl font-semibold text-[#4af041] text-left md:text-right'>
                             I'm Mohit, a frontend developer skilled in building responsive, mobile-first
@@ -39,8 +40,8 @@ export default function About() {
                         </p>
                     </div>
 
-                    <div className='flex items-center justify-center w-full md:w-1/3'>
-                        <img src={displaypic} alt='img' className='mt-10 md:mt-0 shadow-xl rounded-lg' />
+                    <div className='mx-auto flex items-center justify-center w-44 h-44 md:w-1/3 md:h-auto rounded-full overflow-hidden'>
+                        <img src={displaypic} alt='img' className=' md:mt-0 shadow-xl rounded-lg' />
                     </div>
                 </div>
             </div>

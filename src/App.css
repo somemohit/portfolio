@@ -38,7 +38,7 @@
 }
 
 body {
-  background-color: #546f9c ;
+  background-color: #1d293d ;
 }
 
 ::-webkit-scrollbar {
@@ -46,7 +46,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #546f9c;
+  background-color: #1d293d;
   margin: 0.5em;
 }
 
