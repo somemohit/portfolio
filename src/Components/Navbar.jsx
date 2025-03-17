@@ -45,10 +45,10 @@ export default function Navbar() {
         </div>
       </Link>
 
-      <div className="absolute right-7 top-6 cursor-pointer md:hidden" >
+      {/* <div className="absolute right-7 top-6 cursor-pointer md:hidden" >
         {open ? <MdClose className="h-8 text-white text-3xl" onClick={() => setOpen(false)} />
           : <FaBars className="h-8 text-white text-2xl" onClick={() => setOpen(true)} />}
-      </div>
+      </div> */}
 
       {/* hamburger icon */}
       <div
