@@ -50,7 +50,7 @@ export default function Navbar() {
           : <FaBars className="h-8 text-white text-2xl" onClick={() => setOpen(true)} />}
       </div> */}
 
-      {/* hamburger icon */}
+      {/* hamburger icon starts*/}
       <div
         className="absolute right-7 top-6 cursor-pointer md:hidden"
         onClick={() => setOpen(!open)}
@@ -71,6 +71,7 @@ export default function Navbar() {
           }`}
         ></div>
       </div>
+      {/* hamburger icon ends*/}
 
       <div>
         <ul
